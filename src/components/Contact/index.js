@@ -21,10 +21,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'gmail',
-        'template_YeJhZkgb',
+        'service_ioe1h0l',
+        'template_duig5q4',
         form.current,
-        'your-token'
+        '3aWBLH1iKbAOd7r_c'
       )
       .then(
         () => {
@@ -90,20 +90,20 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Khiroun Mohamed amine,
           <br />
-          Serbia,
+          Algiers,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          5 Street Aissat idir, El Harrach
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <br />
+          <span>khirounamine4@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[36.7237, 3.1366]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[36.7237, 3.1366]}>
+              <Popup>Amine lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
         </div>
